@@ -5,7 +5,7 @@ Todos los cambios importantes de este proyecto serán documentados en este archi
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v1.0-perfil-jasson] - 2025-01-14
+## [v1.0-jason7337] - 2025-01-14
 
 ### Agregado - Jasson Gomez (GG19037)
 - Perfil completo de Jasson Gomez con información personal

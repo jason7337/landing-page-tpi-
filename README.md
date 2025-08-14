@@ -8,9 +8,9 @@ Landing page colaborativa desarrollada como práctica de control de versiones co
 | Nombre | Carnet | GitHub |
 |--------|--------|--------|
 | Jasson Armando Gomez Guevara | GG19037 | @jason7337 |
-| Mélida Fuentes Miranda | FM21015 | @[github] |
-| Katia Guadalupe Chevez Campos | CC19036 | @[github] |
-| German Daniel Hernández Pinto | HP19012 | @[github] |
+| Mélida Fuentes Miranda | FM21015 | @FuentesMiranda |
+| Katia Guadalupe Chevez Campos | CC19036 | @katiacampos |
+| German Daniel Hernández Pinto | HP19012 | @Geer27 |
 
 ## Tecnologías Utilizadas
 - HTML5
@@ -36,10 +36,10 @@ landing-page-tpi-/
 1. Hacer fork del repositorio principal
 2. Clonar tu fork: `git clone [url-de-tu-fork]`
 3. Configurar upstream: `git remote add upstream [url-repo-principal]`
-4. Crear rama de trabajo: `git checkout -b perfil-[tu-nombre]`
+4. Crear rama de trabajo: `git checkout -b [tu-usuario-github]` (ej: jason7337, FuentesMiranda, katiacampos, Geer27)
 5. Sincronizar con main: `git pull upstream main`
 6. Realizar cambios y commits semánticos
-7. Push a tu fork: `git push origin perfil-[tu-nombre]`
+7. Push a tu fork: `git push origin [tu-usuario-github]`
 8. Crear Pull Request hacia el repositorio principal
 
 ### Convenciones de Commits
