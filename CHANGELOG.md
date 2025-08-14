@@ -31,9 +31,14 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 - CHANGELOG.md para registro de cambios
 - Información del equipo TPI 2025
 
+### Modificado - Jasson Gomez (rama jason7337)
+- Limpiar archivos CSS innecesarios que serán creados por otros integrantes
+- Remover referencia a JavaScript no utilizado
+- Optimizar estructura para trabajo colaborativo
+
 ### Por Hacer
-- Personalización de perfiles por Mélida Fuentes (FM21015)
-- Personalización de perfiles por Katia Chevez (CC19036)
-- Personalización de perfiles por German Hernández (HP19012)
+- Personalización de perfiles por @FuentesMiranda (FM21015)
+- Personalización de perfiles por @katiacampos (CC19036)
+- Personalización de perfiles por @Geer27 (HP19012)
 - Agregar fotos reales de los demás integrantes
 - Completar información personal de cada miembro
