@@ -7,18 +7,18 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [v1.0-jason7337] - 2025-01-14
 
-### Agregado - Jasson Gomez (GG19037)
-- Perfil completo de Jasson Gomez con información personal
-- Estilos CSS personalizados para perfil-jasson con gradientes y animaciones
-- Integración de imagen de perfil (file.jpeg)
-- Enlaces a redes sociales (GitHub: @jason7337)
-- Efectos hover y transiciones en el perfil
+### Agregado - Jasson Gomez (@jason7337)
+- Perfil completo con información personal y académica
+- Estilos CSS personalizados con gradientes y animaciones
+- Integración de imagen de perfil personal
+- Enlaces a redes sociales y GitHub
+- Efectos hover y transiciones personalizadas
 
-### Modificado - Jasson Gomez (GG19037)
+### Modificado - Jasson Gomez (@jason7337)  
 - Actualización del título de la página a "Equipo TPI 2025"
-- Información del equipo con nombres y carnets completos
-- Estructura de perfiles para todos los integrantes
-- Footer con información de la Universidad de El Salvador
+- Información completa del equipo con nombres y carnets
+- Estructura base para perfiles de todos los integrantes
+- Footer con información institucional de la UES
 
 ## [v1.0.0] - 2025-01-14
 

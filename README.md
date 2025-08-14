@@ -34,13 +34,18 @@ landing-page-tpi-/
 
 ### Para contribuir al proyecto:
 1. Hacer fork del repositorio principal
-2. Clonar tu fork: `git clone [url-de-tu-fork]`
-3. Configurar upstream: `git remote add upstream [url-repo-principal]`
-4. Crear rama de trabajo: `git checkout -b [tu-usuario-github]` (ej: jason7337, FuentesMiranda, katiacampos, Geer27)
-5. Sincronizar con main: `git pull upstream main`
+2. Clonar tu fork: `git clone https://github.com/TU-USUARIO/landing-page-tpi-.git`
+3. Configurar upstream: `git remote add upstream https://github.com/jason7337/landing-page-tpi-.git`
+4. Crear rama con tu usuario GitHub: `git checkout -b TU-USUARIO-GITHUB`
+5. Sincronizar con master: `git pull upstream master`
 6. Realizar cambios y commits semánticos
-7. Push a tu fork: `git push origin [tu-usuario-github]`
+7. Push a tu fork: `git push origin TU-USUARIO-GITHUB`
 8. Crear Pull Request hacia el repositorio principal
+
+**Ejemplo para cada integrante:**
+- Mélida: `git checkout -b FuentesMiranda`
+- Katia: `git checkout -b katiacampos`  
+- German: `git checkout -b Geer27`
 
 ### Convenciones de Commits
 Utilizamos commits semánticos con los siguientes prefijos:
