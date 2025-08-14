@@ -1,0 +1,142 @@
+.perfil-jasson {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.perfil-jasson::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    50% { transform: translate(30px, -30px) rotate(180deg); }
+}
+
+.perfil-jasson .profile-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 2px solid #667eea;
+    position: relative;
+    z-index: 1;
+}
+
+.perfil-jasson .profile-img {
+    border: 5px solid #667eea;
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.5);
+    transition: all 0.3s ease;
+}
+
+.perfil-jasson .profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(102, 126, 234, 0.8);
+}
+
+.perfil-jasson h3 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.perfil-jasson h3::after {
+    content: '👨‍💻';
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+
+.perfil-jasson .carnet {
+    background: #667eea;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.perfil-jasson .profile-description {
+    font-size: 1.05rem;
+    color: #4a5568;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.perfil-jasson .profile-description::before,
+.perfil-jasson .profile-description::after {
+    content: '"';
+    font-size: 2rem;
+    color: #667eea;
+    position: absolute;
+}
+
+.perfil-jasson .profile-description::before {
+    left: -10px;
+    top: -10px;
+}
+
+.perfil-jasson .profile-description::after {
+    right: -10px;
+    bottom: -10px;
+}
+
+.perfil-jasson .social-links {
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.perfil-jasson .social-link {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.perfil-jasson .social-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: left 0.3s;
+}
+
+.perfil-jasson .social-link:hover::before {
+    left: 100%;
+}
+
+.perfil-jasson .social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+}
+
+@media (max-width: 768px) {
+    .perfil-jasson h3::after {
+        display: none;
+    }
+    
+    .perfil-jasson .profile-description::before,
+    .perfil-jasson .profile-description::after {
+        font-size: 1.5rem;
+    }
+}
